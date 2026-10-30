@@ -62,8 +62,6 @@ O circuito original do grupo pode ser visto na imagem acima e está descrito int
 
 **Simulação original do grupo:** [Projeto_M.M. no Wokwi](https://wokwi.com/projects/479323831221297153). O projeto já está montado com o ESP32, o HC-SR04 e o buzzer. Basta abrir o link e iniciar a simulação.
 
-![Detalhes do esquema utilizado no projeto](images/circuito-wokwi.png)
-
 ## 5. Funcionamento lógico e técnico
 
 ### 5.1. Leitura da distância
