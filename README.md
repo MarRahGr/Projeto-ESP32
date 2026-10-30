@@ -101,16 +101,6 @@ A lista `melodia` armazena pares de **frequência (Hz)** e **duração (s)**. Pa
 
 O grupo executou a simulação no Wokwi e confirmou que o buzzer toca, que as leituras aparecem no terminal e que a velocidade da melodia muda ao alterar a distância do HC-SR04. A imagem nesta documentação foi capturada do circuito utilizado no teste.
 
-## 📁 Estrutura do repositório
-
-```text
-Projeto-ESP32/
-├── main.py                  # Código-fonte MicroPython
-├── diagram.json             # Conexões do circuito no Wokwi
-├── README.md                # Relatório técnico
-└── images/
-    └── circuito-wokwi.png   # Print da montagem feita pelo grupo
-```
 
 ## ▶️ Como executar
 
