@@ -6,7 +6,7 @@
 
 O **Projeto_M.M.** é uma experiência interativa em que a distância de uma mão (representada por um objeto virtual na simulação) controla a **velocidade de uma melodia**. Quanto mais perto do sensor ultrassônico, mais rapidamente as notas são tocadas; quanto mais longe, mais lentamente elas são tocadas.
 
-![Montagem real do projeto no simulador Wokwi: ESP32, sensor HC-SR04 e buzzer](images/circuito-wokwi.png)
+![Circuito do Projeto_M.M. no Wokwi](circuito-wokwi.png)
 
 > Esta imagem mostra a montagem produzida pelo grupo no Wokwi. O projeto foi desenvolvido e testado virtualmente, sem montagem física.
 
