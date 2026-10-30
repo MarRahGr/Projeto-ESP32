@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "AirDJ - Owlficina de Microcontroladores",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 70, "left": 10, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "sonar", "top": -80, "left": 220, "attrs": { "distance": "20" } },
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": 190, "left": 270, "attrs": { "volume": "0.5" } }
+  ],
+  "connections": [
+    [ "esp:VIN", "sonar:VCC", "red", [] ],
+    [ "esp:GND.1", "sonar:GND", "black", [] ],
+    [ "esp:D5", "sonar:TRIG", "green", [] ],
+    [ "esp:D18", "sonar:ECHO", "blue", [] ],
+    [ "esp:D19", "buzzer:2", "orange", [] ],
+    [ "esp:GND.2", "buzzer:1", "black", [] ]
+  ],
+  "dependencies": {}
+}
